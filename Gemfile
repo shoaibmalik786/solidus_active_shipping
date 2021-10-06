@@ -18,7 +18,7 @@ end
 gem 'sqlite3'
 gem 'pg', '~> 0.21'
 gem 'mysql2', '~> 0.4.10'
-
+gem 'active_shipping', github: 'Shopify/active_shipping', branch: 'master'
 group :development, :test do
   gem 'pry-rails'
 end
