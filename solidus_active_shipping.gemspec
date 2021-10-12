@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'solidus_support'
   s.add_dependency 'solidus_backend', solidus_version
   s.add_dependency 'solidus_api', solidus_version
-  s.add_dependency 'active_shipping', git: 'shoaibmalik786/active_shipping', branch: 'master'
+  s.add_dependency 'active_shipping', git: 'https://github.com/shoaibmalik786/active_shipping.git'
 
   s.add_development_dependency 'byebug'
   s.add_development_dependency 'capybara', '~> 2.1'
